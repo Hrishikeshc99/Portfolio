@@ -1,5 +1,14 @@
 // import { Image } from "@mui/icons-material";
 import Sppu from "../images/SPPU.png"
+import Cximg from "../images/cximg.jpeg"
+import facebookimg from "../images/facebookimg.jpg"
+import groceryimg from "../images/groceryimg.jpg"
+import lmsimg from "../images/lmsimg.jpg"
+import Mlimg from "../images/mlimg.jpeg"
+import Paimg from "../images/paimg.png"
+import Toxiccomment from "../images/toxiccommentimg.png"
+
+
 export const Bio = {
   name: "Hrishikesh Chavan",
   roles: [
@@ -205,24 +214,24 @@ export const experiences = [
     ],
     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
-  {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Present",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-  },
+  // {
+  //   id: 0,
+  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+  //   role: "Frontend Engineer Intern",
+  //   company: "Neurobit",
+  //   date: "June 2023 - Present",
+  //   desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+  //   skills: [
+  //     "ReactJS",
+  //     "Redux",
+  //     "NodeJs",
+  //     "Material UI",
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript",
+  //   ],
+  //   doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+  // },
   // {
   //   id: 1,
   //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
@@ -326,8 +335,8 @@ export const projects = [
     date: "Jan 2023 - Aug 2023",
     description:
     "COMMUNITYx is a social platform that unites people through actions, petitions, donations, and events,powered by various technologies.Created by a team of developers and activists who believe that technology can be used to make a positive impact on the world.Designing and developing the user interface of the website, including the home page, the actions page and the profile page using JavaScript, React, and Redux.",  
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    image:Cximg,
+      // "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
     tags: [
       "React Js",
       "REST API",
@@ -345,8 +354,7 @@ export const projects = [
     date: "Aug 2023 - Jan 2024",
     description:
     "This is a new Social Network for Social Good! The app represents the social impact interests and movements of young activists across the globe.This is a collaborative feature of social media applications like Whatsapp, Facebook and Instagram. Users can post their feeds, upload videos, images and also can create events and petitions for public votes.The app allows you to create and scale cause-driven communities that are ready to mobilize from anywhere on earth",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+    image:Paimg,
     tags: ["React Js", "Redux", "REST API", "Javascript", "Jest"],
     category: "web app",
     // github: "https://github.com/rishavchanda/Podstream",
@@ -372,8 +380,8 @@ export const projects = [
     date: "Oct 2022- Dec 2022",
     description:
    "Facebook is a website which allows users, who sign-up for free profiles, to connect with friends, work colleagues or people they don't know, online. It allows users to share pictures, music, videos, and articles, as well as their own thoughts and opinions with however many people they like.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+    image:facebookimg,
+      // "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
     tags: [
       "React Js",
       "HTML",
@@ -443,8 +451,7 @@ export const projects = [
     date: "Jul 2021",
     description:
     "Library Management System Project is basically updating the manual library system into an internet-based web application so that the users can know the details of their accounts, availability of books and maximum limit for borrowing and many more features.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+    image:lmsimg,
     tags: ["React Js", "Python", "Html", "Javascript"],
     category: "web app",
     github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
@@ -456,8 +463,7 @@ export const projects = [
     date: "March 2024",
     description:
       "In this project, we will learn how to create a task bot that calculates the Total Minutes Produced, Production line efficiency, generates a report containing items with a line efficiency value below 25, and finally, calculates the business unit allowance." ,
-    image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+    image:Mlimg,
     tags: ["Automation-Aywhere","Comunity-Addition","Bot-Store"],
     category: "automation anywhere",
     // github: "https://github.com/rishavchanda/Todo-Web-App",
@@ -482,8 +488,7 @@ export const projects = [
     date: "Jan 2024 - March 2024",
     description:
     "Leading grocery store chains wanted to enhance their customers' shopping experience by providing a mobile app that allows users to browse products, view prices, and easily manage their shopping carts. The goal was to increase customer engagement and streamline the shopping process.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
+    image:groceryimg,
     tags: ["Flutter", "Android Studio", "Dart", "HTML","Css"],
     category: "android app",
     // github: "https://github.com/rishavchanda/Quiz-Earn",
@@ -495,8 +500,7 @@ export const projects = [
     date: "Jan 2021",
     description:
       "This project Classification of online toxic comments using machine learning algorithms is used to classify toxic comments. The system classifies given data into 6 categories i.e. threat, insult, toxic, severe toxic, obscene, and identity hate.",
-    image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
+    image:Toxiccomment,
     tags: ["Python", "huggingface", "TensorFlow", "Pickle"],
     category: "machine learning",
     // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",

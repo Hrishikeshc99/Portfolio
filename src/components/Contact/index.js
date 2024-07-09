@@ -128,18 +128,33 @@ const Contact = () => {
   const [open, setOpen] = React.useState(false);
   const form = useRef();
 
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   emailjs.sendForm('service_mdm6obg', 'template_rzur5bj',form.current, {publicKey: 'lCkwMxyDHwTKXnvmT',})
+  //     .then((result) => {
+  //       setOpen(true);
+  //       form.current.reset();
+  //     }, (error) => {
+  //       console.log(error.text);
+  //     });
+  // }
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
-      .then((result) => {
-        setOpen(true);
-        form.current.reset();
-      }, (error) => {
-        console.log(error.text);
-      });
-  }
 
-
+    emailjs
+      .sendForm('service_mdm6obg', 'template_rzur5bj', form.current, {
+        publicKey: 'pXpjrnHOfc3K-FBTJ',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
 
   return (
     <Container>
@@ -157,7 +172,7 @@ const Contact = () => {
         <Snackbar
           open={open}
           autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
+          onClose={() => setOpen(false)}
           message="Email sent successfully!"
           severity="success"
         />

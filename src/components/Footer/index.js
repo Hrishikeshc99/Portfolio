@@ -104,7 +104,7 @@ function Footer() {
         </SocialMediaIcons>
         Contact us 
         <Copyright>
-          &copy; 2023 Hrishikesh Chavan. All rights reserved.
+          &copy; 2024 Hrishikesh Chavan. All rights reserved.
         </Copyright>
       </FooterWrapper>
     </FooterContainer>

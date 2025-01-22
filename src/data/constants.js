@@ -21,7 +21,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Hrishikeshc99",
   resume:
-    "https://drive.google.com/file/d/1sSDjgOsWlpW0WbdVlcz2JoTP7OVClPmj/view?usp=drive_link",
+    "https://drive.google.com/file/d/1sn9-1c6Ww3ZIZekYJhA9r16kGNl-WGoY/view",
   linkedin: "https://www.linkedin.com/in/hrishikesh-chavan-29779222a/",
   // twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/hrishi_chavan_?igsh=MXVlbm8xYnNweHgzdw%3D%3D&utm_source=qr",
